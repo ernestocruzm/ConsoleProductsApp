@@ -25,6 +25,7 @@ namespace ProductStore.Controllers
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }
             return item;
+
         }
 
         public IEnumerable<Product> GetProductsByCategory(string category)
